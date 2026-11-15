@@ -1,5 +1,5 @@
-import { completeTask, createTask, deleteTask, getTasks, getTasksByUser } from './tasks.js';
-import { createUser, getUsers } from './users.js';
+import { completeTask, createTask, deleteTask, getTasks, getTasksByUser } from './modules/tasks.js';
+import { createUser, getUsers } from './modules/users.js';
 
 const ada = createUser('Ada lace', 'ada@example.com');
 const linus = createUser('Linus Tom', 'linus@example.com');
